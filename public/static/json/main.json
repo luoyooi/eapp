@@ -1,0 +1,60 @@
+{
+  "stores": [
+    {
+      "store_id": "1001",
+      "img": "/static/img/list1.webp",
+      "desc": "秘制花甲",
+      "title": "秘制花甲(经贸店）",
+      "score": 4.7,
+      "sale": 2000,
+      "time": "57分钟",
+      "distance": "100m",
+      "starting_send": 15,
+      "distribution": 10,
+      "full_decrement": "满30减22;满58减25;满88减28"
+    },
+    {
+      "store_id": "1002",
+      "img": "/static/img/list2.webp",
+      "desc": "汉堡时光",
+      "title": "汉堡时光",
+      "score": 4.9,
+      "sale": 1000,
+      "time": "30分钟",
+      "distance": "109m",
+      "starting_send": 20,
+      "distribution": 1,
+      "full_decrement": "满59元赠送4元蛋蛋1个"
+    },
+    {
+      "store_id": "1003",
+      "img": "/static/img/list3.webp",
+      "desc": "成都菜馆",
+      "title": "成都菜馆",
+      "score": 4.7,
+      "sale": 3000,
+      "time": "46分钟",
+      "distance": "182m",
+      "starting_send": 8,
+      "distribution": 0,
+      "full_decrement": "满28减25;满80减50;满162减100"
+    }
+  ],
+  "banner_list": [
+    {
+      "id": 1,
+      "desc": "看电影",
+      "img": "/static/img/banner1.jpg"
+    },
+    {
+      "id": 2,
+      "desc": "吃美食",
+      "img": "/static/img/banner2.jpg"
+    },
+    {
+      "id": 3,
+      "desc": "点外卖",
+      "img": "/static/img/banner3.jpg"
+    }
+  ]
+}

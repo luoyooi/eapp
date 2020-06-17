@@ -1,32 +1,53 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div id="top">
+      <router-view></router-view>
     </div>
-    <router-view/>
+    <mt-tabbar v-model="selected" fixed>
+      <mt-tab-item id="main">
+        <div class="select-item">
+          <i class="el-icon-s-home"></i>
+          <span>主页</span>
+        </div>
+      </mt-tab-item>
+      <mt-tab-item id="order">
+        <div class="select-item">
+          <i class="el-icon-s-shop"></i>
+          <span>订单</span>
+        </div>
+      </mt-tab-item>
+      <mt-tab-item id="personal">
+        <div class="select-item">
+          <i class="el-icon-s-custom"></i>
+          <span>我的</span>
+        </div>
+      </mt-tab-item>
+    </mt-tabbar>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+export default {
+  name: 'app',
+  data () {
+    return {
+      selected: 'main'
+    }
+  },
+  watch: {
+    selected (val) {
+      this.$router.push({ name: this.selected })
+    }
+  }
 }
+</script>
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+<style lang="less" scoped>
+  .select-item{
+    display: flex;
+    flex-flow: column nowrap;
+    i{
+      font-size: 20px;
+    }
+  }
 </style>

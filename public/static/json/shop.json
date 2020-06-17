@@ -1,0 +1,193 @@
+[
+  {
+    "store_id": "1001",
+    "food": [
+      {
+        "type": "热销",
+        "foodList": [
+          {
+            "img": "/static/img/huajia1.webp",
+            "name": "牛肉咖喱饭",
+            "desc": "新鲜的牛肉遇上浓厚的咖喱",
+            "month_sale": 3000,
+            "praise": 33,
+            "price": 43.99
+          },
+          {
+            "img": "/static/img/huajia1.webp",
+            "name": "牛肉咖喱饭",
+            "desc": "新鲜的牛肉遇上浓厚的咖喱",
+            "month_sale": 3000,
+            "praise": 33,
+            "price": 43.99
+          },
+          {
+            "img": "/static/img/huajia1.webp",
+            "name": "牛肉咖喱饭",
+            "desc": "新鲜的牛肉遇上浓厚的咖喱",
+            "month_sale": 3000,
+            "praise": 33,
+            "price": 43.99
+          }
+        ]
+      },
+      {
+        "type": "折扣",
+        "foodList": [
+          {
+            "food_id": "2-1",
+            "img": "/static/img/huajia2.webp",
+            "name": "咔嗞鸡排",
+            "desc": "好吃的鸡排",
+            "month_sale": 62,
+            "praise": 3,
+            "price": 6.6
+          },
+          {
+            "food_id": "2-2",
+            "img": "/static/img/huajia2.webp",
+            "name": "咔嗞鸡排",
+            "desc": "好吃的鸡排",
+            "month_sale": 62,
+            "praise": 3,
+            "price": 6.6
+          },
+          {
+            "food_id": "2-3",
+            "img": "/static/img/huajia2.webp",
+            "name": "咔嗞鸡排",
+            "desc": "好吃的鸡排",
+            "month_sale": 62,
+            "praise": 3,
+            "price": 6.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "store_id": "1002",
+    "food": [
+      {
+        "type": "热销",
+        "foodList": [
+          {
+            "img": "/static/img/hanbao1.webp",
+            "name": "香辣大鸡排",
+            "desc": "欢迎光临，反馈请致电",
+            "month_sale": 3000,
+            "praise": 33,
+            "price": 43.99
+          },
+          {
+            "img": "/static/img/hanbao1.webp",
+            "name": "香辣大鸡排",
+            "desc": "欢迎光临，反馈请致电",
+            "month_sale": 3000,
+            "praise": 33,
+            "price": 43.99
+          },{
+            "img": "/static/img/hanbao1.webp",
+            "name": "香辣大鸡排",
+            "desc": "欢迎光临，反馈请致电",
+            "month_sale": 3000,
+            "praise": 33,
+            "price": 43.99
+          }
+        ]
+      },
+      {
+        "type": "折扣",
+        "foodList": [
+          {
+            "img": "/static/img/hanbao2.webp",
+            "name": "脆皮全鸡+可乐",
+            "desc": "欢迎光临，反馈请致电",
+            "month_sale": 62,
+            "praise": 3,
+            "price": 6.6
+          },
+          {
+            "img": "/static/img/hanbao2.webp",
+            "name": "脆皮全鸡+可乐",
+            "desc": "欢迎光临，反馈请致电",
+            "month_sale": 62,
+            "praise": 3,
+            "price": 6.6
+          },
+          {
+            "img": "/static/img/hanbao2.webp",
+            "name": "脆皮全鸡+可乐",
+            "desc": "欢迎光临，反馈请致电",
+            "month_sale": 62,
+            "praise": 3,
+            "price": 6.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "store_id": "1003",
+    "food": [
+      {
+        "type": "热销",
+        "foodList": [
+          {
+            "img": "/static/img/cdcg1.webp",
+            "name": "酸辣土豆丝",
+            "desc": "精品家常菜",
+            "month_sale": 9999,
+            "praise": 33,
+            "price": 43.99
+          },
+          {
+            "img": "/static/img/cdcg1.webp",
+            "name": "酸辣土豆丝",
+            "desc": "精品家常菜",
+            "month_sale": 9999,
+            "praise": 33,
+            "price": 43.99
+          },
+          {
+            "img": "/static/img/cdcg1.webp",
+            "name": "酸辣土豆丝",
+            "desc": "精品家常菜",
+            "month_sale": 9999,
+            "praise": 33,
+            "price": 43.99
+          }
+        ]
+      },
+      {
+        "type": "折扣",
+        "foodList": [
+          {
+            "img": "/static/img/cdcg2.webp",
+            "name": "麻婆豆腐",
+            "desc": "精品家常菜",
+            "month_sale": 62,
+            "praise": 3,
+            "price": 6.6
+          },
+          {
+            "img": "/static/img/cdcg2.webp",
+            "name": "麻婆豆腐",
+            "desc": "精品家常菜",
+            "month_sale": 62,
+            "praise": 3,
+            "price": 6.6
+          },
+          {
+            "img": "/static/img/cdcg2.webp",
+            "name": "麻婆豆腐",
+            "desc": "精品家常菜",
+            "month_sale": 62,
+            "praise": 3,
+            "price": 6.6
+          }
+        ]
+      }
+    ]
+  }
+]
