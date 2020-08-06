@@ -1,24 +1,18 @@
-# eapp_shop
+# 饿了么外卖点餐模拟系统
 
-## Project setup
-```
-yarn install
-```
+## 项目概况
+本项目旨在通过调用mint-ui，来体验快速开发一款外卖点餐系统（前端静态页面），采用静态json数据。
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 技术栈
+vue2.0、vue-router、axios、less、mint-ui、element-ui
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 开发环境依赖
 
-### Lints and fixes files
-```
-yarn lint
-```
+- [node](https://nodejs.org/en/)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [yarn](https://yarnpkg.com/zh-Hans/)
+
+- [eslint](http://eslint.org/)
+
+## 提示
+项目仅供学习研究所用，无任何其他用途。
